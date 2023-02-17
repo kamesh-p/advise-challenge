@@ -1,0 +1,86 @@
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+.container {
+  width: 350px;
+  height: 250px;
+  background-color: hsl(217, 19%, 24%);
+  margin: 150px auto;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+.container h3 {
+  font-size: 1rem;
+  color: hsl(150, 100%, 66%);
+  padding-top: 35px;
+  letter-spacing: 3px;
+}
+.container p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.container2 {
+  width: 5px;
+  height: 10px;
+  background-color: aliceblue;
+  border-radius: 2px;
+  margin-left: 165px;
+  position: absolute;
+  bottom: 50px;
+}
+.container3 {
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  background-color: aliceblue;
+  border-radius: 2px;
+  bottom: 50px;
+  margin-left: 180px;
+}
+.hr {
+  position: absolute;
+  width: 30%;
+  bottom: 46px;
+  left: 50px;
+  height: 0.2px;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.hr1 {
+  position: absolute;
+  width: 30%;
+  bottom: 46px;
+  right: 50px;
+  height: 0.2px;
+  background-color: hsl(217, 19%, 38%);
+}
+.button {
+  position: absolute;
+  bottom: -30px;
+  padding: 15px;
+  left: 150px;
+  border-radius: 100%;
+  /* margin-top: 62%; */
+  background-color: hsl(150, 100%, 66%);
+  border: 0px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: hsl(150, 100%, 66%);
+  box-shadow: 0 0 2rem 0 hsl(150, 100%, 66%);
+}
+@media (max-width: 375px) {
+  .container {
+    margin-top: 100px;
+    width: 330px;
+  }
+  .container2 {
+    margin-left: 162px;
+  }
+  .hr {
+    width: 35%;
+  }
+}
