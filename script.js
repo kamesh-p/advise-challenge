@@ -15,7 +15,7 @@ function getAdvice() {
     .then((adviseInfo) => {
       const advise1 = adviseInfo.slip;
       adviceHeader.innerHTML = `ADVICE# ${advise1.id}`;
-      adviceText.innerHTML = `"${advise1.advice}".`;
+      adviceText.innerHTML = `"${advise1.advice}"`;
     })
 
     .catch((error) => {
